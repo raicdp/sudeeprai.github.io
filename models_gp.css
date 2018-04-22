@@ -1,0 +1,112 @@
+body{
+	
+	background-image: url("best.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+
+}
+
+.me
+{
+	width:100%;
+	height:130px;
+	background-color: #000;
+	font-style: italic;
+	font-size: 95px;
+	font-weight: 800; /*to make the font thicker*/
+	text-align: center; /*to make text appear in center*/
+	color:#58D68D;
+	padding-bottom: 0;
+}
+.me img
+{
+	width: 130px;
+	height: 125px;
+	float: left;
+	border-radius: 15%;
+}
+nav
+{
+width:100%;
+height:50px;
+margin:auto;
+margin-top: 25px;
+background-color: black;
+
+}
+nav ul{
+	list-style-type: none; /*TO REMOVE THE DOT IN NAVIGATION*/
+	margin: auto;
+	background-color: #87CEFA;
+
+}
+nav ul li{
+	float: left;
+	padding: 10px;
+	margin:auto;
+
+
+}
+li a {
+	display: inline-block;
+	color: green;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+li a:hover:not(.hom) {
+	background-color: #1E90FF;
+}
+
+.hom {
+	background-color: green;
+}
+
+nav ul li a{
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+
+
+
+
+
+
+
+footer 
+{
+width : 100%;
+height : 400px;
+margin : auto;
+padding : 0;
+background : #efefef;
+font-family:Comic Sans MS;
+}
+.secondfooter 
+{
+height : 80px;
+background-color : #000;
+color : white;
+text-align : center;
+padding-top : 25px;
+
+font-family : "Century Gothic";
+font-size : 18px;
+word-spacing : 3px;
+}
+.main-footer 
+{
+background-image : url(rai.jpg);
+background-size : cover;
+background-attachment : fixed;
+background-repeat : no-repeat;
+padding : 40px;
+color :#000;
+font-size:24px;
+text-align : center;
+
+height : 320px;
+
+}

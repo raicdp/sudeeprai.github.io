@@ -1,0 +1,249 @@
+body{
+	
+	background-image: url("best.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	
+
+}
+
+#me
+{
+	width:100%;
+	height:130px;
+	background-color: #000;
+	font-style: italic;
+	font-size: 95px;
+	font-weight: 800; /*to make the font thicker*/
+	text-align: center; /*to make text appear in center*/
+	color:#58D68D;
+	padding-bottom: 0;
+}
+#me img
+{
+	width: 130px;
+	height: 125px;
+	float: left;
+	border-radius: 15%;
+}
+nav
+{
+width:100%;
+height:50px;
+margin:auto;
+margin-top: 25px;
+background-color: black;
+
+}
+nav ul{
+	list-style-type: none; /*TO REMOVE THE DOT IN NAVIGATION*/
+	
+	background-color: #87CEFA;
+
+}
+nav ul li{
+	float: left;
+	padding: 10px;
+	margin:auto;
+
+
+}
+li a {
+	display: inline-block;
+	color: green;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+li a:hover:not(.hom) {
+	background-color: #1E90FF;
+}
+
+.hom {
+	background-color: green;
+}
+
+nav ul li a{
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+
+
+
+
+.gap{
+	height: 25px;
+}
+.flex{
+	display: flex;
+}
+.flex div {
+	margin-right:95px;
+	}
+
+.div1{
+
+	width:350px;
+	height:350px;
+	background-image: url("box.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-position: center;
+	border:2px solid #000;
+	position: relative;
+	
+}
+
+.div2{
+
+	width:350px;
+	height:350px;
+	background-image:url("education.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	border:2px solid #000;
+	position: absolute;
+	top:310px;
+	right:810px ;
+	text-align: center;
+	
+}
+
+.div3{
+
+	width:350px;
+	height:350px;
+	background-image: url("box.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	border:2px solid #000;
+	position: relative;
+	
+	
+	
+}
+
+.div4{
+
+	width:350px;
+	height:350px;
+	background-image: url("exp.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	border:2px solid #000;
+	position: absolute;
+	top:310px;
+	right: 440px;
+	text-align: center;
+	
+	
+}
+
+.div5{
+
+	width:350px;
+	height:350px;
+	background-image: url("box.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	border:2px solid #000;
+	position:absolute;
+	top:240px;
+	right: 70px;
+
+	
+}
+
+.div6{
+
+	width:350px;
+	height:350px;
+	background-image: url("skill.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	border:2px solid #000;
+	position: absolute;
+	top:310px;
+	right: 10px;
+	text-align: center;
+	
+	
+}
+.div7{
+	width: 350px;
+	height: 350px;
+	border:2px solid #000;
+	margin-top: 120px;
+	margin-left: 500px;
+	position: relative;
+	background-image: url("language.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+
+}
+
+.div8{
+width: 350px;
+	height: 350px;
+	border:2px solid #000;
+	position: absolute;
+	top:710px;
+	right:488px;
+	background-image: url("int.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+
+}
+.div8:hover{ /*when touching by the cursor, the divison will be animated*/
+	position: relative;
+	-webkit-animation-name:lef;
+	-webkit-animation-duration:7s; /*it is the duraion of the animation*/
+}
+@-webkit-keyframes lef{ /* the division will slide to right and come back to it's original position*/
+	0%{left:495px; top:-355px;}
+	50%{left:900px; top:-355px;}
+	100%{left:495px; top:-355px;}
+}
+.gp{
+	height: 15px;
+}
+
+footer 
+{
+width : 100%;
+height : 400px;
+margin : auto;
+padding : 0;
+background : #efefef;
+font-family:Comic Sans MS;
+}
+.secondfooter 
+{
+height : 80px;
+background-color : #000;
+color : white;
+text-align : center;
+padding-top : 25px;
+
+font-family : "Century Gothic";
+font-size : 18px;
+word-spacing : 3px;
+}
+.main-footer 
+{
+background-image : url(rai.jpg);
+background-size : cover;
+background-attachment : fixed;
+background-repeat : no-repeat;
+padding : 40px;
+color :#000;
+font-size:24px;
+text-align : center;
+
+height : 320px;
+
+}

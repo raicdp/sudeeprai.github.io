@@ -1,0 +1,194 @@
+body{
+	
+	background-image: url("best.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+.me
+{
+	width:100%;
+	height:130px;
+	background-color: #000;
+	font-style: italic;
+	font-size: 95px;
+	font-weight: 800; /*to make the font thicker*/
+	text-align: center; /*to make text appear in center*/
+	color:#58D68D;
+	padding-bottom: 0;
+}
+.me img
+{
+	width: 130px;
+	height: 125px;
+	float: left;
+	border-radius: 15%;
+	-webkit-animation-name:rotation;/* to have rotation-animation*/
+	-webkit-animation-duration:3s; /*it is used for making animation for the certain time period*/
+	-webkit-animation-iteration-count:infinite; /* "infinite" is used to make the rotation for infinite period of time*/
+
+}
+@-webkit-keyframes rotation {
+	from {
+		-webkit-transform:rotate(0deg);/* rotation begin from 0 degree*/
+	}
+	to {
+		-webkit-transform:rotate(360deg);/*rotation end in 360 degree*/
+	}
+}
+
+nav
+{
+width:100%;
+height:50px;
+margin:auto;
+margin-top: 25px;
+background-color: black;
+
+}
+nav ul{
+	list-style-type: none; /*TO REMOVE THE DOT IN NAVIGATION*/
+	margin: auto;
+	
+	background-color: #87CEFA;
+
+}
+nav ul li{
+	float: left;
+	padding: 10px;
+	margin:auto;
+
+
+}
+li a {
+	display: inline-block;
+	color: green;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+li a:hover:not(.hom) {
+	background-color: #1E90FF; /*when clicking by pointer, color changes*/
+}
+
+.hom {
+	background-color: green;
+}
+
+nav ul li a{
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+@media screen and (max-width:500px){
+	ul.topnav li.right,
+	ul.topnav li {float: none;} /*to make responsive navigation in every devices*/
+}
+.all
+{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	background-image: url("sky1.gif");
+
+
+}
+
+.all h1
+{
+	font-weight: 100;
+    font-size: 45px;
+    color: #000; 
+
+}
+.all h2
+{
+	font-size: 25px;
+	font-weight: 100;
+	color:#000;
+
+}
+.all img{
+	border-radius: 28%;
+	-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /*Safari*/
+	
+}
+.all img:hover {
+	width: 300px;
+	height:60px;
+	-webkit-transform:rotate(180deg); /*Safari*/
+	transform: rotate(360deg); /*when touching by the pointer, it rotates*/
+}
+
+
+
+
+.explore
+{
+	width: 100%;
+	height: 220px;
+	background-image: url(hi1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.explore h1{
+	font-size: 30px;
+	text-align: center;
+}
+.explore img{
+	border-radius: 50%;
+	height: 150px;
+	width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	position: relative;
+	-webkit-animation-name:hi;
+	-webkit-animation-duration:7s;
+
+}
+
+@-webkit-keyframes hi{
+	0%{left:0px; top:0px;}
+	50%{left:250px; top:0px;}
+	100%{left:0px; top:0px;}
+}/* the picture move forward and return back to it's original place*/
+
+
+footer 
+{
+width : 100%;
+height : 400px;
+margin : auto;
+padding : 0;
+background : #efefef;
+font-family:Comic Sans MS;
+}
+.secondfooter 
+{
+height : 80px;
+background-color : #000;
+color : white;
+text-align : center;
+padding-top : 25px;
+
+font-family : "Century Gothic";
+font-size : 18px;
+word-spacing : 3px;
+}
+.main-footer 
+{
+background-image : url(rai.jpg);
+background-size : cover;
+background-attachment : fixed;
+background-repeat : no-repeat;
+padding : 40px;
+color : #000;
+font-size:24px;
+text-align : center;
+
+height : 320px;
+
+}

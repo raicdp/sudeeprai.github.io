@@ -1,0 +1,298 @@
+body {
+	
+	background-image: url("best.jpg");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	
+	
+
+}
+
+.me
+{
+	width:100%;
+	height:130px;
+	background-color: #000;
+	font-style: italic;
+	font-size: 95px;
+	font-weight: 800; /*to make the font thicker*/
+	text-align: center; /*to make text appear in center*/
+	color:#58D68D;
+	padding-bottom: 0;
+
+}
+.me img
+{
+	width: 130px;
+	height: 125px;
+	float: left;
+	border-radius: 15%;
+}
+nav
+{
+width:100%;
+height:50px;
+margin:auto;
+margin-top: 25px;
+background-color: black;
+
+}
+nav ul{
+	list-style-type: none; /*TO REMOVE THE DOT IN NAVIGATION*/
+	margin: auto;
+	background-color: #87CEFA;
+
+}
+nav ul li{
+	float: left;
+	padding: 10px;
+	margin:auto;
+
+
+}
+li a {
+	display: inline-block;
+	color: green;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+li a:hover:not(.hom) {
+	background-color: #1E90FF;
+}
+
+.hom {
+	background-color: green;
+}
+
+nav ul li a{
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+}
+@media screen and (max-width:500px){
+	ul.topnav li.right,
+	ul.topnav li {float: none;} /*to make responsive navigation*/
+}
+
+.dd{
+
+	height: 25px;
+}
+.div1{
+	position: center;
+	width: 73%;
+	height: 490px;
+	background-color: green;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("name.jpg");
+	border: 2px solid #000;
+    
+
+
+}
+
+.div2{
+	position: absolute;
+	top: 270px;
+	right: 110px;
+	width: 73%;
+	height: 490px;
+	background-color: red;
+	background-image: url("name2.jpg");
+	border: 2px solid #000;
+
+
+}
+
+
+.bio
+{
+	position: absolute;
+	top:320px;
+	right: 45px;
+	background-image: url("pic.jpg");
+	background-repeat: no-repeat; /*to not to repeat image multiple times*/
+	display: block;
+	background-position:right;
+	width: 73%;
+	border: 2px solid #000;
+	margin-top:6px;
+	height: 490px;
+	background-color:#4169E1;
+
+	
+	
+}
+.bio h1{
+	color: white;
+	background-color: #000;
+}
+
+
+}
+.bio img {
+	width: 25%;
+	height: 150px;
+	
+
+
+
+}
+.text{
+	position: absolute;
+	top:420px;
+	left:665px;
+
+	
+}
+.text p {
+	color:#800000;
+	text-shadow: 3px 2px green;
+   
+    font-weight: 200;
+    text-align: left;
+    
+
+
+}
+.flex
+{
+	display: flex;
+
+
+}
+.flex div
+{
+	margin: 3%;
+	font-size: 35px;
+}
+.quick{
+	width: 30%;
+	height: 218px;
+    border: 2px solid #000;
+    margin-top: 6px;
+    float: right;
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 25px;
+   
+
+   
+
+
+}
+
+.db{
+
+	height: 100px;
+}
+.quick h1{
+	font-size: 35px;
+	color: green;
+	text-align: center;
+
+}
+.quick p{
+	font-size: 25px;
+	color: #000;
+	text-align: center;
+
+}
+.myself{
+	width: 30%;
+	height: 218px;
+    border: 2px solid #000;
+    margin-top: 6px;
+    float: right;
+    background-image: url("cudip.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     margin-top: 25px;
+   
+   
+
+
+}
+.myself h1{
+	font-size: 35px;
+	color: green;
+	text-align: center;
+
+}
+.myself p{
+	font-size: 25px;
+	color: #000;
+
+}
+
+.Fun{
+	width: 30%;
+	height: 218px;
+   
+    border: 2px solid #000;
+   
+   
+
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 25px;
+
+    
+
+   
+
+
+}
+.Fun h1{
+	font-size: 35px;
+	color: green;
+	text-align: center;
+
+}
+.Fun p{
+	font-size: 25px;
+	color: #000;
+
+}
+
+
+footer 
+{
+width : 100%;
+height : 400px;
+margin : auto;
+padding : 0;
+background : #efefef;
+font-family:Comic Sans MS;
+}
+.secondfooter 
+{
+height : 80px;
+background-color : #000;
+color : white;
+text-align : center;
+padding-top : 25px;
+
+font-family : "Century Gothic";
+font-size : 18px;
+word-spacing : 3px;
+}
+.main-footer 
+{
+background-image : url(rai.jpg);
+background-size : cover;
+background-attachment : fixed;
+background-repeat : no-repeat; /*to avoid occuring the picture for many times*/
+padding : 40px;
+color : #000;
+font-size:16px;
+text-align : center; /*to make text appear in the center*/
+font-weight:bolder; /*for making clear appearance of the text*/
+height : 320px;
+
+}
